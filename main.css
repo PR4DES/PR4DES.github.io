@@ -1,0 +1,41 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: AntiqueWhite;
+	background-size: cover, 200px;
+	background-image: url("03993_nebulacity_2560x1440.jpg"), url("http://img1.daumcdn.net/thumb/R1920x0/?x-twg-thumb-fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F2579D0465269DAA809893C&TWGServiceId=tistoryfile&Expires=1470301052&Signature=jnylDPXLpLzkEZXh%2FQHITFO5KDY%3D");
+	background-repeat: no-repeat, repeat;
+}
+.empty {
+	height: 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 25%;
+}
+.header {
+	width: 100%;
+	color: AntiqueWhite;
+	font-family: Consolas, serif;
+	text-align: center;
+	margin-top:25%;
+}
+.header a:link {
+	text-decoration: none;
+	color: AntiqueWhite;
+}
+.header a:visited {
+	text-decoration: none;
+	color: AntiqueWhite;
+}
+.nav #nav1 li {
+	color: AntiqueWhite;
+	text-align: left;
+	display: inline;
+}
+.nav #nav2 li {
+	color: AntiqueWhite;
+	text-align: right;
+	position: relative;
+	right: 30px;
+}

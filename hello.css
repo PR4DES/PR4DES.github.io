@@ -1,0 +1,16 @@
+body {
+	background-size: 200px;
+	background-image: url("http://img1.daumcdn.net/thumb/R1920x0/?x-twg-thumb-fname=http%3A%2F%2Fcfile8.uf.tistory.com%2Fimage%2F21380C465269DAA928D8E1&TWGServiceId=tistoryfile&Expires=1470301052&Signature=026M4t54g0omkNexOY2voY5mnYw%3D");
+}
+.container {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+}
+.header {
+	padding: 10%;
+}
+.header h2 {
+	text-align: center;
+}
