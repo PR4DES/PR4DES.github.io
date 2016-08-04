@@ -28,14 +28,18 @@ body {
 	text-decoration: none;
 	color: AntiqueWhite;
 }
-.nav #nav1 li {
-	color: AntiqueWhite;
-	text-align: left;
-	display: inline;
-}
-.nav #nav2 li {
-	color: AntiqueWhite;
+.footer {
+	padding-top: 15px;
+	padding-right: 10px;
 	text-align: right;
-	position: relative;
-	right: 30px;
+	font-size: 5px;
+	color: AntiqueWhite;
+}
+.footer a:link {
+	text-decoration: none;
+	color: AntiqueWhite;
+}
+.footer a:visited {
+	text-decoration: none;
+	color: AntiqueWhite;
 }
