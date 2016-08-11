@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	background-color: AntiqueWhite;
 	background-size: cover, 200px;
-	background-image: url("03993_nebulacity_2560x1440.jpg"), url("http://img1.daumcdn.net/thumb/R1920x0/?x-twg-thumb-fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F2579D0465269DAA809893C&TWGServiceId=tistoryfile&Expires=1470301052&Signature=jnylDPXLpLzkEZXh%2FQHITFO5KDY%3D");
+	background-image: url("./images/03993_nebulacity_2560x1440.jpg"), url("./images/slash_ora.png");
 	background-repeat: no-repeat, repeat;
 }
 .empty {
