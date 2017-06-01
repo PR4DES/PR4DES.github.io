@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	background-color: AntiqueWhite;
 	background-size: cover, 200px;
-	background-image: url("./images/03993_nebulacity_2560x1440.jpg"), url("./images/slash_ora.png");
+	background-image: url("./images/slash_ora.png");
 	background-repeat: no-repeat, repeat;
 }
 .empty {
