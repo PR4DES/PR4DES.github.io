@@ -1,6 +1,39 @@
 body {
 	font-family: Times New Roman, serif;
+	background-color: #ffeefb;
 }
-.information #name {
-	font-size: 18px;
+.me {
+	text-align: center;
+	font-size:18px;
+	color: 	#616ca7;
+}
+.me #name {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2f4b7a;
+}
+#title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #a28cd6;
+}
+#content {
+	margin-left:100px;
+	color: 	#616ca7;
+}
+.education #content p:not(#date) {
+	margin-left:100px;
+}
+.experience #content p:not(#date) {
+	margin-left:100px;
+}
+.information {
+	margin-left:200px;
+}
+#github {
+	width:50px;
+	height:50px;
+}
+.website {
+	text-align: right;
 }
