@@ -8,7 +8,7 @@
 		<p id="countdown"></p>
 		<script>
 			var grad_date = new Date("Feb 12, 2018 00:00:00").getTime();
-			var x = set(function() {
+			var x = setInterval(function() {
 				var now = new Date().getTime();
 				var distance = grad_date - now;
 				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
