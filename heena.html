@@ -28,10 +28,7 @@
 				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 				document.getElementById("countdown").innerHTML = days + " 일 " + hours + " 시" + minutes + " 분 " + seconds + " 초 ";
-				for(int i=0; i<days; i++) {
-					space=space+" ";
-				}
-				document.getElementById("hehehe").innerHTML=space;
+				document.getElementById("hehehe").innerHTML=space.repeat(days);
 				if(distance < 0) {
 					document.getElementById("countdown").innerHTML = "Heena Graduated UNIST!";
 				}
